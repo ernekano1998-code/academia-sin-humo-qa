@@ -49,11 +49,11 @@ completo en [`docs/reporte-de-bugs.md`](docs/reporte-de-bugs.md):
 ```bash
 npm install
 npx playwright install chromium
-npx playwright test              # toda la suite
-npx playwright test:e2e          # solo E2E
-npx playwright test:api          # solo API
-npx playwright test:integrado    # solo el flujo integrado
-npx playwright show-report       # ver el último reporte HTML
+npm test              # toda la suite
+npm run test:e2e      # solo E2E
+npm run test:api      # solo API
+npm run test:integrado # solo el flujo integrado
+npm run report         # ver el último reporte HTML
 ```
 
 La suite corre con `workers: 1` porque todos los tests comparten la misma cuenta demo
