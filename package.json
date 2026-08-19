@@ -1,0 +1,23 @@
+{
+  "name": "academia-sin-humo-qa",
+  "version": "1.0.0",
+  "description": "Suite de pruebas automatizadas sobre Academia sin Humo, construida con Playwright y TypeScript.",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test tests/e2e",
+    "test:api": "playwright test tests/api",
+    "test:integrado": "playwright test tests/integrado",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "typescript": "^7.0.2"
+  }
+}
